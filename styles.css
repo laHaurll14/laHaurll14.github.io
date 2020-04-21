@@ -1,0 +1,303 @@
+/*
+body {
+ oldlace, lightyellow
+  background-color: seashell;
+}
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  top:100px;
+  text-align:center
+}
+
+li {
+  display:inline
+}
+
+li a {
+  display: block;
+  border-radius: 5px;
+  color: Thistle;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display:inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: seashell;
+  color: Thistle;
+  text-decoration: none;
+}
+
+.active {
+  background-color: Crimson;
+}
+
+.homepageicon {
+  display: block;
+  position: relative;
+  top: -50px;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+.logot {
+  display: inline-block;
+  color: lightsalmon;
+  font-family: "Arial Black", Gadget;
+  font-size: 65px;
+  position: relative;
+  z-index: 0;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {color: darksalmon;}
+}
+
+.logot:hover {
+  text-decoration: none;
+  color: crimson;
+}
+
+
+.intro {
+  border-radius: 10px;
+  background: AntiqueWhite;
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: Crimson;
+  right: -50%;
+  top: 30px;
+}
+
+.intro:hover {
+  background: Crimson;
+  color: AntiqueWhite;
+}
+
+.myself {
+  position: relative;
+  right: -25%;
+  top: -220px;
+  border: 20px solid AntiqueWhite;
+  border-radius: 10px;
+}
+
+.myself:hover {
+  border: lightsalmon;
+}
+
+/* For comments/blog page styling */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid LightSalmon;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: LightSalmon;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: Crimson;
+}
+
+.thingy {
+  border-radius: 5px;
+  background-color: AntiqueWhite;
+  position: relative;
+  top: 10px;
+  left: 390px;
+  width: 40%;
+  padding: 20px;
+}
+
+label {
+  color: Crimson;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+
+.enterinfo {
+  color: lightsalmon;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 390px;
+}
+
+sdiv {
+  color: lightsalmon;
+  position: relative;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  top: 150px;
+  left: 175px;
+  padding-bottom: 200px;
+
+}
+
+.thebutton {
+  position: relative;
+  top: 200px;
+  left: 390px;
+  background-color: seashell;
+  border: none;
+  color: crimson;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.thebutton:hover {
+  color: seashell;
+  background-color: crimson;
+}
+
+/* Ending of styling for comments/blog page */
+
+/* start of other styling */
+.split {
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 38%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: seashell;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: antiquewhite;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered {
+  width: 150px;
+  border-radius: 50%;
+}
+.split:hover{
+  background-color: lightsalmon;
+}
+
+.readheader {
+  position: relative;
+  top: 400px;
+  left: 100px;
+}
+/* end of other styling */
+
+/* art */
+
+.yes {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: crimson;
+
+}
+
+.image:hover {
+  padding-bottom: 100px;
+}
+
+#container {
+  text-align: center;
+}
+
+#welcoming {
+  color: crimson;
+  text-align: center;
+  top: 50px;
+  position: relative;
+  font-size: 70px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {color: cadetblue;}
+}
+
+.headerthing {
+  background-color: seashell;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.bi-book-half:hover {
+  color: crimson;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  top: 50px;
+  position: relative;
+  width: 170px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid lightsalmon;
+  background-color: seashell;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
